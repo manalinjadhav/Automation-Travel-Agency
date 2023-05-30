@@ -1,0 +1,27 @@
+/***********URL for registration*************/
+
+http://localhost:9999/user/user/register
+
+<<<<<<<<<<<JSON format for registration>>>>>>>>>
+
+[POST]
+
+{
+  "name": "Ram",
+  "mobileNumber": "7788996655",
+  "password": "Ram@123",
+  "dob": "1988-08-22",
+  "address": "mumbai",
+  "email": "Ram@gmail.com",
+  "gender": "male",
+  "role": "USER"
+}
+
+************URL for validation/Login****************
+
+[GET]
+
+http://localhost:9999/user/user/validation?mno=9975732576&pass=sonu%40123&role=USER
+
+>mobileNumber
+>password
